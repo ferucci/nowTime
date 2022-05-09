@@ -34,7 +34,7 @@ const declinationCalculation = () => {
     hours = 'часов'
   } else if (getTimes.hours > 1 && getTimes.hours <= 4 || getTimes.hours == 22 || getTimes.hours == 23) {
     hours = 'часа'
-  } else if (getTimes.hours === 21 && getTimes.hours === 1) {
+  } else if (getTimes.hours === 21 || getTimes.hours === 1) {
     hours = 'час'
   }
 
